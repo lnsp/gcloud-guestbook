@@ -1,0 +1,11 @@
+indexes:
+- kind: Greeting
+  ancestor: true
+  properties:
+  - name: Date
+    direction: desc
+- kind: Vote
+  ancestor: true
+  properties:
+  - name: Author
+    direction: desc
